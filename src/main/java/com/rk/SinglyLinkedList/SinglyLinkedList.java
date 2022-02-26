@@ -1,5 +1,12 @@
 package com.rk.SinglyLinkedList;
 
+/**
+ * For the LinkedList, have a innerclass Node with data and pointer to next Node.
+ * To work in the main class make all classes and methods static
+ * Main points in SinglyLinkedList is that the pointer is oneway, and Head node can change
+ * So, we have to always maintain the Head Node or return/pass it to all methods.
+ * Last node always points to null.
+ */
 public class SinglyLinkedList {
     private Node head=null;
     private static class Node{
